@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us - My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+      <img src="logo.png" alt="Logo" />
+      <div id="links">
+        <a href="#">Hello</a>
+        <a href="#">Dashboard</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+    <div id="content">
+      <h1>Contact Us</h1>
+      <div id="boxes">
+        <div class="box">
+          <h2>E-Mail</h2>
+          <p>conttact us at xxx.xxx@gmail.com</p>
+        </div>
+        <div class="box">
+          <h2>Contact Number</h2>
+          <p>Contact us at xxxxxxxxxxxx</p>
+        </div>
+      </div>
+    </div>
+    <div id="icons">
+      <a href="#"><img src="instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </body>
+</html>
+
+<style>
+body {
+  background-color: #f5f5f5;
+  font-family: 'Somatic Rounded', sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+}
+
+#header img {
+  height: 50px;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#links a:hover {
+  background-color: #FF6961;
+  color: white;
+}
+
+#content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#content h1 {
+  color: #008CBA;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 45%;
+  background-color: #FDE2E2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#icons {
+  display: flex;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    font-family: 'Russo One', sans-serif;
+}
+.nv {
+    display: flex;
+    justify-content: end;
+    /* background-color: blue; */
+    padding-left: 55em;
+}
+.main {
+
+    padding-top: 3;
+    margin: 5%;
+    display: flex;
+    /* background-color: yellow; */
+
+}
+
+.headline {
+
+    padding-top: 4%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+    /* background-color: cadetblue; */
+}
+.btnn {
+    padding-left: 48%;
+}
